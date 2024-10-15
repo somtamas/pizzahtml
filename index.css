@@ -1,0 +1,30 @@
+.fejlec {
+    background-image: url(./képek/hatterkep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-indent: 40px;
+    padding-top: 15px;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(158, 154, 154);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+}
