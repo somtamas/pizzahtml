@@ -26,3 +26,48 @@ ul {
 li {
     float: right;
 }
+
+.fokeret {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#vmi {
+    background-color: rgb(27, 27, 27);
+    color: gray;
+    padding-bottom: 150px;
+}
+
+h4 {
+    color: rgb(95, 93, 93);
+}
+
+h2 {
+    color: white;
+}
+
+#baltet {
+    width: 15%;
+    text-align: right;
+    float: left;
+}
+
+#jobbtet {
+    width: 45%;
+    float: right;
+}
+
+#vmi2 {
+    background-color: rgb(49, 48, 48);
+    height: 300px;
+    color: grey;
+}
+
+h2 {
+    margin: 0 auto;
+}
