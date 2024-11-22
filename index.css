@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .fejlec {
     background-image: url(./képek/hatterkep.jpg);
     background-repeat: no-repeat;
@@ -29,7 +33,7 @@ ul {
 }
 
 li {
-    float: right;
+    
 }
 
 .fokeret {
@@ -52,12 +56,10 @@ h2 {
 
 #baltet {
     width: 20%;
-    float: left;
 }
 
 #jobbtet {
     width: 50%;
-    float: right;
 }
 
 .szurke {
@@ -105,6 +107,7 @@ h3 {
 h5 {
     color: white;
     font-size: 1.2em;
+    margin: 0;
 }
 
 .button {
@@ -177,30 +180,40 @@ footer {
 .grid-container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 100px);
+}
+
+.grid-container img {
+    object-fit: cover;
 }
 
 .item1 {
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 5;
 }
   
 .item2 {
-    grid-column-start: 7;
+    grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 6;
 }
 
 .item3 {
-
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 
 .item4 {
-
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
   
 .item5 {
