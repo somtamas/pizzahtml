@@ -12,6 +12,10 @@ body {
     height: 500px;
 }
 
+.fejlec a:hover {
+    background-color: rgb(238, 238, 49, 50%);
+}
+
 h1 {
     color: white;
 }
@@ -30,10 +34,6 @@ li a {
 ul {
     list-style: none;
     padding-right: 30px;
-}
-
-li {
-    
 }
 
 .fokeret {
@@ -99,6 +99,10 @@ h2 {
     padding-bottom: 40px;
 }
 
+.szoveg4 a:hover {
+    background-color: rgb(238, 238, 49, 50%);
+}
+
 h3 {
     color: rgb(95, 93, 93);
     text-align: center;
@@ -128,14 +132,6 @@ button:hover {
 
 .button2 {
     text-align: center;
-}
-
-a:hover {
-    background-color: rgb(238, 238, 49, 50%);
-}
-
-img:hover {
-    background-color: rgb(238, 238, 49, 50%);
 }
 
 .img1 {
@@ -217,5 +213,31 @@ footer {
 }
   
 .item5 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
 
+.container {
+    position: relative;
+    display: inline-block;
+}
+  
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.kepcim {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center; 
 }
