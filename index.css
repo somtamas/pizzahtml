@@ -190,16 +190,17 @@ footer {
 
 .item1 {
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 5;
 }
   
 .item2 {
-    grid-column-start: 6;
-    grid-column-end: 9;
+    grid-column-start: 7;
+    grid-column-end: 10;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 5;
+    padding-bottom: 130px;
 }
 
 .item3 {
@@ -211,11 +212,15 @@ footer {
 
 .item4 {
     grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 7;
 }
   
 .item5 {
-
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    padding-bottom: 50px;
 }
