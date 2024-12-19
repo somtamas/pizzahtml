@@ -54,15 +54,15 @@ h4 {
     color: rgb(95, 93, 93);
 }
 
-.szurke {
-    background-color: rgb(49, 48, 48);
-}
-
 h2 {
     color: white;
     text-align: center;
     margin: 0 auto;
     padding-top: 60px;
+}
+
+.szurke {
+    background-color: rgb(49, 48, 48);
 }
 
 .szoveg1 {
